@@ -215,4 +215,4 @@ if __name__ == "__main__":
     # define train_step (1 line)
     train_step = optimizer.minimize(J)
 
-    model_nn(sess, generated_image, num_iterations=100)
+    model_nn(sess, generated_image, num_iterations=1000)
