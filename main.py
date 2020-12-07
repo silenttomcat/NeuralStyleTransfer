@@ -171,10 +171,10 @@ if __name__ == "__main__":
     # Start interactive session
     sess = tf.InteractiveSession()
 
-    content_image = scipy.misc.imread("images/izmir2.jpg")
+    content_image = scipy.misc.imread("images/47.jpg")
     content_image = reshape_and_normalize_image(content_image)
 
-    style_image = scipy.misc.imread("images/style3.jpg")
+    style_image = scipy.misc.imread("images/style4.jpg")
     style_image = reshape_and_normalize_image(style_image)
 
 
